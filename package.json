@@ -1,0 +1,14 @@
+{
+  "name": "good_match",
+  "version": "1.0.0",
+  "description": "A local tennis club has decided to organise a tournament open to the general public as a way to promote tennis and the club itself.",
+  "main": "index.js",
+  "scripts": {
+    "test": "run dev"
+  },
+  "keywords": [
+    "Assesment"
+  ],
+  "author": "Tumelo Meletse",
+  "license": "ISC"
+}
