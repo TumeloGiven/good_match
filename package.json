@@ -1,14 +1,23 @@
 {
   "name": "good_match",
   "version": "1.0.0",
-  "description": "A local tennis club has decided to organise a tournament open to the general public as a way to promote tennis and the club itself.",
+  "description": "Good match",
   "main": "index.js",
   "scripts": {
-    "test": "run dev"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TumeloGiven/good_match.git"
   },
   "keywords": [
-    "Assesment"
+    "good",
+    "match"
   ],
   "author": "Tumelo Meletse",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TumeloGiven/good_match/issues"
+  },
+  "homepage": "https://github.com/TumeloGiven/good_match#readme"
 }
