@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/TumeloGiven/good_match/issues"
   },
-  "homepage": "https://github.com/TumeloGiven/good_match#readme"
+  "homepage": "https://github.com/TumeloGiven/good_match#readme",
+  "dependencies": {
+    "simple-node-server": "^1.7.0"
+  }
 }
