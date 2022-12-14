@@ -3,7 +3,6 @@
     <head>
         <title>Good match</title>
 
-        <script src="index.js"></script>
         <style>
             body, html, * {
                 padding: 0;
@@ -14,7 +13,7 @@
                 min-height: 100vh;
                 background-color: #f0f2f5;
             }
-
+            
             .container {
                 position: relative;
                 box-sizing: border-box;
@@ -23,7 +22,7 @@
                 height: 500px;
                 top: 50px;
             }
-
+            
             .card {
                 position: relative;
                 display: block;
@@ -34,29 +33,30 @@
                 background-color: #fff;
                 padding: 20px;
             }
-
+            
             input[type="text"] {
                 border: 1px solid #c9cacb;
                 border-radius: 5px;
                 padding: 3px 5px;
             }
-        </style>
+            </style>
     </head>
     <body>
         <div class="container">
             <div class="card">
                 <h1>Good match</h1>
-
+                
                 <label for="fname">First name:</label><br>
                 <input type="text" id="fname" name="fname" value=""><br>
                 <label for="sname">Last name:</label><br>
                 <input type="text" id="sname" name="sname" value=""><br><br>
-                <input type="submit" value="Calculate" onclick="goodMatch()">
-
+                <input id="calculate" type="submit" value="Calculate" onclick="btnOnClick()">
+                
                 <div>
                     <p id="results"></p>
                 </div>
             </div>
         </div>
+        <script src="index.js"></script>
     </body>
-</html>
+    </html>

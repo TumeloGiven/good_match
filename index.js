@@ -3,11 +3,9 @@
 let RESULT = new String();
 
 let goodMatch = (_firstname, _secondName) => {
-    let firstname = document.getElementById('fname').value.trim();
-    let secondname = document.getElementById('sname').value.trim();
     let charCount = new Array();
-
-    const combined = firstname != "" && secondname != "" ? new String (`${firstname} matches  ${secondname}` ): "";
+    
+    const combined = _firstname != "" && _secondName != "" ? new String (`${_firstname} matches  ${_secondName}` ): "";
 
     if(combined != ""){
         compare(combined,  charCount, 0);
@@ -71,4 +69,11 @@ let calculatePercentage = (str) => {
 let showResults = (combined) => {
     let message = Number(RESULT) >= 80 ? `${combined} ${RESULT}%, good match` : `${combined} ${RESULT}%`;
     document.getElementById('results').innerHTML = message;
+}
+
+let btnOnClick = () => {
+    let firstname = document.getElementById('fname').value.trim();
+    let secondname = document.getElementById('sname').value.trim();
+
+    goodMatch(firstname, secondname);
 }
